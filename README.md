@@ -77,6 +77,6 @@ Documentation of an API project by Group #4
         ```
  > `PATCH`
  * [/user/:userId](<>)
-        edits user information
+     - edits user information
 
 ---
