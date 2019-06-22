@@ -13,13 +13,13 @@ Documentation of an API project by Group #4
  
   `GET` | `POST` | `DELETE` | `PATCH`
   
-  > `GET`
+ > `GET`
  - [/categories](<>)
     - lists information about all users
  - [/categories/:id](<>) 
     - information about a user with the id<string> entered
 
-  > `POST`
+ > `POST`
    - [/categories/create](<>)
         - creates a category by recieving `name: <String>`
  > `DELETE`
@@ -39,12 +39,13 @@ Documentation of an API project by Group #4
 - Methods:
  
   `GET` | `POST` | `DELETE` | `PATCH`
-  > `GET`
+ 
+> `GET`
    - [/products](<>)
         - recieves all the products
    - [/products/:productId](<>) 
        - recieves the product with the `productsId<string>` entered
-  > `POST`
+> `POST`
    - [/products/create](<>)
        - recieves from the user:
             ```sh
@@ -53,10 +54,10 @@ Documentation of an API project by Group #4
             description: <string>
             price: <number>
             ```
- > `DELETE`
+> `DELETE`
    * [/products/:productId](<>)
         - deletes the product with an id<string> entered
- > `PATCH`
+> `PATCH`
    * [/products/:productId](<>)
         - changes the product with an `productsId<string>` entered
  ----
@@ -65,12 +66,12 @@ Documentation of an API project by Group #4
  - Methods:
  
   `GET` | `POST` | `PATCH`
-  > `GET`
+> `GET`
    - [/user/list](<>)
        - shows all the users
    - [/user/:userId](<>) 
        - show the user by Id<string>
-  > `POST`
+> `POST`
    - [/user/signup](<>)
         - recieves from the user !All Required!:
             ```sh
@@ -84,7 +85,7 @@ Documentation of an API project by Group #4
         email: email<string>
         password: <string>
         ```
- > `PATCH`
+> `PATCH`
  * [/user/:userId](<>)
      - edits user information
 
