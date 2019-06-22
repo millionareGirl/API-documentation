@@ -38,7 +38,7 @@ Documentation of an API project by Group #4
 - Returns json data about the products and alters them
 - Methods:
  
-  `GET` | `POST` | `DELETE` | `PATCH`
+ `GET` | `POST` | `DELETE` | `PATCH`
  
 > `GET`
    - [/products](<>)
