@@ -9,8 +9,10 @@ Documentation of an API project by Group #4
  ----
  ### CATEGORIES
  - Returns json data about the categories and alters them
+ - Methods:
  
   `GET` | `POST` | `DELETE` | `PATCH`
+  
   > `GET`
  - [/categories](<>)
     - lists information about all users
@@ -34,6 +36,7 @@ Documentation of an API project by Group #4
  ----
  ### PRODUCTS
 - Returns json data about the products and alters them
+- Methods:
  
   `GET` | `POST` | `DELETE` | `PATCH`
   > `GET`
@@ -59,6 +62,7 @@ Documentation of an API project by Group #4
  ----
  ### USER
  - Returns json data about the user and alters them
+ - Methods:
  
   `GET` | `POST` | `PATCH`
   > `GET`
