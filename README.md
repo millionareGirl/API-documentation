@@ -8,6 +8,7 @@ Documentation of an API project by Group #4
 ## Microservices
  ----
  ### CATEGORIES
+ - Returns json data about the categories and alters them
  
   `GET` | `POST` | `DELETE` | `PATCH`
   > `GET`
@@ -32,6 +33,8 @@ Documentation of an API project by Group #4
             submits the modification to a resource
  ----
  ### PRODUCTS
+- Returns json data about the products and alters them
+ 
   `GET` | `POST` | `DELETE` | `PATCH`
   > `GET`
    - [/products](<>)
@@ -55,6 +58,8 @@ Documentation of an API project by Group #4
         - changes the product with an `productsId<string>` entered
  ----
  ### USER
+ - Returns json data about the user and alters them
+ 
   `GET` | `POST` | `PATCH`
   > `GET`
    - [/user/list](<>)
@@ -80,3 +85,18 @@ Documentation of an API project by Group #4
      - edits user information
 
 ---
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `{ id : 12, name : "Michael Bloom" }`
+ 
+* **Error Response:**
+
+  * **Code:** 404 NOT FOUND <br />
+    **Content:** `{ error : "User doesn't exist" }`
+
+  OR
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `{ error : "You are unauthorized to make this request." }`
